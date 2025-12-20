@@ -1,23 +1,11 @@
 # Power Conditioning and Distribution Unit (PCDU)
 
-This repository documents the design and analysis of a Power Conditioning and Distribution Unit (PCDU) intended for a CubeSat-class spacecraft.
+This project focuses on the design and simulation of a low-voltage DC Power Conditioning and Distribution Unit (PCDU).
+The system conditions an input DC supply, distributes power to multiple loads, and provides basic electrical protection to ensure safe operation.
+The project is developed as a learning-oriented electrical engineering project, emphasizing fundamentals rather than complex or mission-critical applications.
 
-## Objectives
-- Regulate and distribute power from solar panels and batteries
-- Protect subsystems from over-voltage, under-voltage, and over-current
-- Provide reliable power buses for payload and onboard electronics
-
-## Scope
-- Conceptual system architecture
-- Battery and bus modeling
-- Protection logic and safe-mode concepts
-- Software-based simulations (GNU Octave / MATLAB)
-
-## Tools Used
-- Block diagram modeling
-
-## Current Status
-- Stage 1: System architecture and power flow definition (in progress)
-
-## Author
-Borish
+# Objectives
+To understand power conditioning in DC systems.
+To design a simple power distribution architecture.
+To implement basic protection mechanisms.
+To model and analyze the system using GNU Octave.
